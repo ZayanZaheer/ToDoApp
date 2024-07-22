@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="Style2.css">
+</head>
+<body>
+    <H2>Task Manager</H2>
+    <div id="TaskContainer">
+        <input type="text" id="Task">
+        <button type="button" id="AddTask" onclick="CreateTask()">Add</button><br>
+        <div id="Tasks">
+            <ul>
+                <li id="Task1">
+                    <input type="checkbox" class="Task">
+                    <label for="Task">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</label>
+                    <button type="button" class="Edit" onclick="Edit()">Edit</button>
+                    <button type="button" class="Delete" onclick="Delete()">Delete</button> 
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <script src="Script2.js"></script>
+</body>
+</html>
