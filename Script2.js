@@ -1,6 +1,5 @@
 const task = document.getElementById("Task");
 const pressed = document.getElementById("AddTask");
-let TaskNum = 2;
 function CreateTask(){
 
     //Create the Element for the task
@@ -39,7 +38,6 @@ function CreateTask(){
     document.getElementById(`Task${TaskNum}`).appendChild(Editbtn);
     document.getElementById(`Task${TaskNum}`).appendChild(Deletebtn);
 
-    TaskNum++;
 }
 
 function Edit(Taskid){
