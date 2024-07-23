@@ -11,16 +11,14 @@
     <div id="TaskContainer">
         <input type="text" id="Task">
         <button type="button" id="AddTask" onclick="CreateTask()">Add</button><br>
-        <div id="Tasks">
-            <ul>
+            <ul id="Tasks">
                 <li id="Task1">
                     <input type="checkbox" class="Task">
                     <label for="Task">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</label>
-                    <button type="button" class="Edit" onclick="Edit()">Edit</button>
-                    <button type="button" class="Delete" onclick="Delete()">Delete</button> 
+                    <button type="button" class="Edit" onclick="Edit('Task1')">Edit</button>
+                    <button type="button" class="Delete" onclick="Delete('Task1')">Delete</button> 
                 </li>
             </ul>
-        </div>
         
     </div>
     <script src="Script2.js"></script>
