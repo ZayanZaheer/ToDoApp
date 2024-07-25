@@ -63,7 +63,7 @@ function Edit(taskid){
             saveTask(taskid, input.value);
         }
     }
-    Tasknumber.replaceChild(input, Tasklabel);
+    Tasknumber.replaceChild(input, Tasklabel); // This is in case no changes are made to the task
     input.focus();
 
 }
