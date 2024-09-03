@@ -45,7 +45,7 @@ function CreateTask(){
 }
 
 function Edit(taskid){
-    // Getiing access to the li element of the task
+    // Gettiing access to the li element of the task
     const Tasknumber = document.getElementById(taskid);
     // From the li element get access to the label
     const Tasklabel = Tasknumber.querySelector("label");
@@ -63,7 +63,7 @@ function Edit(taskid){
             saveTask(taskid, input.value);
         }
     }
-    Tasknumber.replaceChild(input, Tasklabel); // This is in case no changes are made to the task
+    Tasknumber.replaceChild(input, Tasklabel); // This is used to chnage the current label with the input field
     input.focus();
 
 }
